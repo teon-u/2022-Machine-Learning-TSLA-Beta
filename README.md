@@ -18,7 +18,7 @@ Machine Learning for stock prediction
 
 -------------------------------------------
 * 자유롭게 활용하시되, 밥이나 한 끼 사주십쇼
-* 작성자 : 유태준 / YuTaeJun
+* 작성자 : 유태준
 * Gmail : dbxowns120@gmail.com
 * Tel : +82 010-4861-7125
 * Kakao : xowns1997
