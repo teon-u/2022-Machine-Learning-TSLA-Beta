@@ -1,5 +1,6 @@
 # MLT_v0.1.1
-##Machine Learning for stock prediction
+##Machine Learning for stock prediction  
+
 머신러닝을 통해 퀸트투자 & 데이터 분석을 하기위한 코드입니다.
 데이터 크롤러를 yfinance API 로 변경하며 새롭게 만들었습니다.
 
