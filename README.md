@@ -16,6 +16,7 @@ Machine Learning for stock prediction
  - 2022.03.09 / TSLA / 815$ / 1주  
  - 2022.03.31 / TSLA / 1103.1$ / 1주  
 
+-------------------------------------------
 * 자유롭게 활용하시되, 밥이나 한 끼 사주십쇼
 * 데이터분석가(진) 유태준
 * Gmail : dbxowns120@gmail.com
