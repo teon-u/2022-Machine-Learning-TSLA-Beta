@@ -11,7 +11,7 @@ stock = 'TSLA' #stock
 
 """ 1-2. SET DATETIME """
 from datetime import datetime, timedelta
-start_date = '2017-05-01' #1
+start_date = '2017-04-01' #1
 end_date = str(datetime.today().strftime("%Y-%m-%d")) #2
 time_range = start_date + " " + end_date
 
@@ -59,7 +59,13 @@ df.columns = ['Date','Search','Price','Open','High','Low','Vol'] #5
 # 3. 검색 데이터 - 검색량 결측치를 ffill (이전값으로 채우기) 방식으로 처리
 # 4. 모델에서 사용하지 않는 열 제거 (증자, 배당 등 반영한 주가라는데.. 잘 모르니 제거)
 # 5. 컬럼명 보기쉽게 재설정
-# 데이터 Cut-Off 코드는 반영 보류 (연산 후 성능하락시 재반영)
+
+df['Vol'] = df['Vol'].apply(lambda x: round(x/1000))
+df['Price'] = df['Price'].apply(lambda x: round(x,2))
+df['Open'] = df['Open'].apply(lambda x: round(x,2))
+df['High'] = df['High'].apply(lambda x: round(x,2))
+df['Low'] = df['Low'].apply(lambda x: round(x,2))
+# 데이터 Cut-Off
 
 
 """ 1-6. FEATURE ENGINEERING """
