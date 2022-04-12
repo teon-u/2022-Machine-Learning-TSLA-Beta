@@ -35,10 +35,10 @@ df['p_nin'] = pipe_9.predict(temp_df)
 df['p_ten'] = pipe_10.predict(temp_df)
 
 condition = (df['p_one'] + df['p_two'] + df['p_thr'] + df['p_for'] + df['p_fiv'] + df['p_six'] + \
-            df['p_sev'] + df['p_eig'] + df['p_nin'] + df['p_ten']) > 5
+            df['p_sev'] + df['p_eig'] + df['p_nin'] + df['p_ten']) > 6
 
 target_feature = df.Price
-much = 4
+much = 3
 Income_list = []
 Income_rate = []
 

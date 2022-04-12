@@ -95,10 +95,10 @@ y_test_10 = y_test_10[:-10]
 """ 2-3. PARAMETER TUNING """
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
-params = { 'n_estimators' : [10,25, 100],
-           'max_depth' : [2, 4, 8, 16, 32],
-           'min_samples_leaf' : [1,2,3,5],
-           'min_samples_split' : [2, 4, 8, 16, 32]
+params = { 'n_estimators' : [10,100],
+           'max_depth' : [ 2, 4, 8, 16],
+           'min_samples_leaf' : [1,3,5],
+           'min_samples_split' : [ 2,4,8, 16]
             }
 
 rf_clf = RandomForestClassifier(random_state = 0, n_jobs = -1)
