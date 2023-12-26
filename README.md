@@ -5,11 +5,11 @@ Machine Learning for stock prediction
 데이터 크롤러를 yfinance API 로 변경하며 새롭게 만들었습니다.
 
 [투자방식]  
- - Notion : https://pinto-truck-71f.notion.site/MLT-081a6ec08e4d423d8be1926b723e04b1  
+ - Notion : https://teon-u.notion.site/MLT-081a6ec08e4d423d8be1926b723e04b1?pvs=4
 
 
 [코드설명]  
- - Notion : https://pinto-truck-71f.notion.site/MLT-1a0c5b71e65f462f9dfcd453da507e81  
+ - Notion : https://teon-u.notion.site/MLT-1a0c5b71e65f462f9dfcd453da507e81?pvs=4
 
 
 [현재까지의 투자 실적]  
@@ -18,7 +18,3 @@ Machine Learning for stock prediction
 
 -------------------------------------------
 * 자유롭게 활용하시되, 밥이나 한 끼 사주십쇼
-* 작성자 : 유태준
-* Gmail : dbxowns120@gmail.com
-* Tel : +82 010-4861-7125
-* Kakao : xowns1997
